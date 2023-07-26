@@ -22,8 +22,8 @@ mtvec_handler:
   csrr t0, mcause
   bne t0, t1, fail
   csrr t0, mepc
-  addi t0, t0, 4
-  csrw mepc, t0
+  addi t0, t0, 4 # Go to next line without error 
+  csrw mepc, t0 # Update the PC
 
   mret
 
