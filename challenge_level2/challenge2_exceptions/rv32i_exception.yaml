@@ -39,7 +39,7 @@ general:
 isa-instruction-distribution:
   rel_sys: 0
   rel_sys.csr: 0
-  rel_rv32i.ctrl: 5
+  rel_rv32i.ctrl: 0
   rel_rv32i.compute: 10
   rel_rv32i.data: 10
   rel_rv32i.fence: 10
@@ -63,7 +63,7 @@ isa-instruction-distribution:
   rel_rv32i.zbt: 0
   rel_rv64i.zbt: 0
   rel_rv32m: 0
-  rel_rv64m: 0
+  rel_rv64m: 0 # Changed 10 to 0
   rel_rv32a: 0
   rel_rv64a: 0
   rel_rv32f: 0
@@ -176,13 +176,13 @@ d-cache:
 # Exception generation
 # ---------------------------------------------------------------------------------
 exception-generation:
-  ecause00: 1
-  ecause01: 1
-  ecause02: 1
-  ecause03: 1
-  ecause04: 1
-  ecause05: 1
-  ecause06: 1
+  ecause00: 0
+  ecause01: 0
+  ecause02: 12
+  ecause03: 0
+  ecause04: 0
+  ecause05: 0
+  ecause06: 0
   ecause07: 0
   ecause08: 0
   ecause09: 0
