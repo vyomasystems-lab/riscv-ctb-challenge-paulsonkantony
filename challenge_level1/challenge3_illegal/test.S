@@ -11,7 +11,7 @@ RVTEST_CODE_BEGIN
 
   li TESTNUM, 2
 illegal_instruction:
-  unimp #.word 0              
+  .word 0              
   # j fail
   TEST_PASSFAIL
 
