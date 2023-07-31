@@ -1,4 +1,4 @@
-![image](https://github.com/vyomasystems-lab/riscv-ctb-challenge-paulsonkantony/assets/62837052/fcffffdd-3489-4f1e-95b3-ca30ec6e5bcc)![image](https://github.com/vyomasystems-lab/riscv-ctb-challenge-paulsonkantony/assets/62837052/a4a81066-9557-4260-9b32-4c6717b1c4c9)# Challenge 3 - Capture the Bug
+# Challenge 3 - Capture the Bug
 ## Approach
 
 Directed Tests were not used at all because we must spend a good amount of time to understand the functionality of Design and identify different verification scenarios to cover functionality.
@@ -26,11 +26,15 @@ The generated report has 4 sheets
 
 1. Overview
 
+   ![Overview Sheet](https://github.com/vyomasystems-lab/riscv-ctb-challenge-paulsonkantony/blob/main/images/Challenge3_Sheet1.png)
+   
    The test_name columns gives the name of the test
    The pc_match column indicates whether there was a mismatch in the PC which might point to a control hazard
    The no_of_instructions column gives the number of instructions (approximately) in the test
 
-2. default, with_hazards, without_hazards
+3. default, with_hazards, without_hazards
+
+   ![Instruction_Sheet](https://github.com/vyomasystems-lab/riscv-ctb-challenge-paulsonkantony/blob/main/images/Challenge3_Sheet2.png)
 
    These three sheets have the same template
    The instr column gives the name of the instruction that gave the incorrect register output or mismatched PC address
@@ -53,5 +57,5 @@ CSR tests always show PC mismatches which indicates that either there is a contr
 lw instruction is always seen in the list of instructions that fail in CSR tests hence it could be the culprit that is causing the mismatch.
 
 ## Output - Failing Test
-
+![Challenge3_Output](https://github.com/vyomasystems-lab/riscv-ctb-challenge-paulsonkantony/blob/main/images/Challenge3_Output.png)
 
