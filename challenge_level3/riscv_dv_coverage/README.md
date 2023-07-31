@@ -5,7 +5,7 @@ Test generation using riscv-dv
 run --target rv32i --test riscv_arithmetic_basic_test --testlist testlist.yaml --simulator pyflow
 ```
 
-Coverage generation using riscv-dvg=
+Coverage generation using riscv-dv
 ```
 cov --dir out/spike_sim/ --simulator=pyflow --enable_visualization --target rv32imc
 ```
