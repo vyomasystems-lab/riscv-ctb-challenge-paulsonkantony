@@ -20,6 +20,8 @@ Interrupt = 1
 
 Exception Code = 02
 
+**Output**
+
 ![Output 2.2.4](https://github.com/vyomasystems-lab/riscv-ctb-challenge-paulsonkantony/blob/main/images/Output_2.2.4.png)
 ![Output 2.2.5](https://github.com/vyomasystems-lab/riscv-ctb-challenge-paulsonkantony/blob/main/images/Output_2.2.5.png)
 ![Output 2.2.6](https://github.com/vyomasystems-lab/riscv-ctb-challenge-paulsonkantony/blob/main/images/Output_2.2.6.png)
