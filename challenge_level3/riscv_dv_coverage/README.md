@@ -15,7 +15,6 @@ The challenge is to fix the tool problem in generating coverage and make rv32i I
 
 # Report
 [Coverage Report](https://github.com/vyomasystems-lab/riscv-ctb-challenge-paulsonkantony/blob/main/challenge_level3/riscv_dv_coverage/cov_out_2023-07-31/CoverageReport.txt)
-![image](https://github.com/vyomasystems-lab/riscv-ctb-challenge-paulsonkantony/assets/62837052/fdcb3f08-3afc-4692-a879-429865bab5ec)
 
 # Output
 
