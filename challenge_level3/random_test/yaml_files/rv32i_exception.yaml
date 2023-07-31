@@ -196,9 +196,9 @@ exception-generation:
 # Data Hazards
 # ---------------------------------------------------------------------------------
 data-hazards:
-  raw_prob: 0.5
-  war_prob: 0.5
-  waw_prob: 0.5
+  raw_prob: 0.9
+  war_prob: 0.9
+  waw_prob: 0.9
   num_regs_lookbehind: 3
 
 program-macro:

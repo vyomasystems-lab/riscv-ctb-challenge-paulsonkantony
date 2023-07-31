@@ -5,7 +5,7 @@ gen: clean
 	@echo '[UpTickPro] Test Generation ------'
 	pip install aapg
 	aapg setup
-	aapg gen --config_file $(PWD)/yaml_files/rv32i_recursion.yaml --asm_name test --output_dir $(PWD) --arch rv32
+	aapg gen --config_file $(PWD)/yaml_files/rv32i_exception.yaml --asm_name test --output_dir $(PWD) --arch rv32
 
 compile:
 	@echo '[UpTickPro] Test Compilation ------'
