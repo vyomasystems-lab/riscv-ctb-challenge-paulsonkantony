@@ -1,4 +1,4 @@
-# RISCV-DV
+![image](https://github.com/vyomasystems-lab/riscv-ctb-challenge-paulsonkantony/assets/62837052/fdcb3f08-3afc-4692-a879-429865bab5ec)# RISCV-DV
 
 Test generation using riscv-dv
 ```
@@ -18,7 +18,8 @@ The challenge is to fix the tool problem in generating coverage and make rv32i I
 
 # Output
 
-![Coverage Command Output](https://github.com/vyomasystems-lab/riscv-ctb-challenge-paulsonkantony/blob/main/images/Coverage%20Output.png)
+![Coverage Command Output](https://github.com/vyomasystems-lab/riscv-ctb-challenge-paulsonkantony/blob/main/images/coverage_part1.png)
+![Coverage Command Output](https://github.com/vyomasystems-lab/riscv-ctb-challenge-paulsonkantony/blob/main/images/coverage_part2.png)
 
 # Issues faced
 **
