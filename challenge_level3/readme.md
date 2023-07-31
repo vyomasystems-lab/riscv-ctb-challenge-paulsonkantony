@@ -57,5 +57,5 @@ CSR tests always show PC mismatches which indicates that either there is a contr
 lw instruction is always seen in the list of instructions that fail in CSR tests hence it could be the culprit that is causing the mismatch.
 
 ## Output - Failing Test
-![Challenge3_Output](https://github.com/vyomasystems-lab/riscv-ctb-challenge-paulsonkantony/blob/main/images/Challenge3_Output.png)
+![Challenge3_Output](https://github.com/vyomasystems-lab/riscv-ctb-challenge-paulsonkantony/blob/main/images/Challenge3_Out.png)
 
