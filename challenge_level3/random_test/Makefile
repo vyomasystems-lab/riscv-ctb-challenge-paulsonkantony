@@ -5,7 +5,7 @@ gen: clean
 	@echo '[UpTickPro] Test Generation ------'
 	pip install aapg
 	aapg setup
-	aapg gen --config_file $(PWD)/yaml_files/rv32i_exception.yaml --asm_name test --output_dir $(PWD) --arch rv32
+	aapg gen --config_file $(PWD)/yaml_files/rv32i_arithmetic.yaml --asm_name test --output_dir $(PWD) --arch rv32
 
 compile:
 	@echo '[UpTickPro] Test Compilation ------'
@@ -28,6 +28,7 @@ sim: spike
 	head -n -4 rtl.dump > temp.dump
 	cp temp.dump rtl.dump
 	@echo '[UpTickPro] Comparison ------'
+	diff rtl.dump spike.dump
 	diff rtl.dump spike.dump > diff.dump
 
 clean:
